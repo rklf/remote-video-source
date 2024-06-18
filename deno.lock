@@ -2,19 +2,13 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:ffprobe-static": "npm:ffprobe-static@3.1.0",
-      "npm:file-type": "npm:file-type@19.0.0",
-      "npm:fluent-ffmpeg": "npm:fluent-ffmpeg@2.1.3",
-      "npm:probe-image-size": "npm:probe-image-size@7.2.3",
-      "npm:ytdl-core": "npm:ytdl-core@4.11.5"
+      "npm:file-type@19.0.0": "npm:file-type@19.0.0",
+      "npm:probe-image-size@7.2.3": "npm:probe-image-size@7.2.3",
+      "npm:ytdl-core@4.11.5": "npm:ytdl-core@4.11.5"
     },
     "npm": {
       "@tokenizer/token@0.3.0": {
         "integrity": "sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==",
-        "dependencies": {}
-      },
-      "async@0.2.10": {
-        "integrity": "sha512-eAkdoKxU6/LkKDBzLpT+t6Ff5EtfSF4wx1WfJiPEEV7WNLnDaRXk0oVysiEPm262roaachGexwUv94WhSgN5TQ==",
         "dependencies": {}
       },
       "debug@2.6.9": {
@@ -29,23 +23,12 @@
           "ms": "ms@2.1.3"
         }
       },
-      "ffprobe-static@3.1.0": {
-        "integrity": "sha512-Dvpa9uhVMOYivhHKWLGDoa512J751qN1WZAIO+Xw4L/mrUSPxS4DApzSUDbCFE/LUq2+xYnznEahTd63AqBSpA==",
-        "dependencies": {}
-      },
       "file-type@19.0.0": {
         "integrity": "sha512-s7cxa7/leUWLiXO78DVVfBVse+milos9FitauDLG1pI7lNaJ2+5lzPnr2N24ym+84HVwJL6hVuGfgVE+ALvU8Q==",
         "dependencies": {
           "readable-web-to-node-stream": "readable-web-to-node-stream@3.0.2",
           "strtok3": "strtok3@7.0.0",
           "token-types": "token-types@5.0.1"
-        }
-      },
-      "fluent-ffmpeg@2.1.3": {
-        "integrity": "sha512-Be3narBNt2s6bsaqP6Jzq91heDgOEaDCJAXcE3qcma/EJBSy5FB4cvO31XBInuAuKBx8Kptf8dkhjK0IOru39Q==",
-        "dependencies": {
-          "async": "async@0.2.10",
-          "which": "which@1.3.1"
         }
       },
       "iconv-lite@0.4.24": {
@@ -60,10 +43,6 @@
       },
       "inherits@2.0.4": {
         "integrity": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
-        "dependencies": {}
-      },
-      "isexe@2.0.0": {
-        "integrity": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
         "dependencies": {}
       },
       "lodash.merge@4.6.2": {
@@ -165,12 +144,6 @@
         "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==",
         "dependencies": {}
       },
-      "which@1.3.1": {
-        "integrity": "sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==",
-        "dependencies": {
-          "isexe": "isexe@2.0.0"
-        }
-      },
       "ytdl-core@4.11.5": {
         "integrity": "sha512-27LwsW4n4nyNviRCO1hmr8Wr5J1wLLMawHCQvH8Fk0hiRqrxuIu028WzbJetiYH28K8XDbeinYW4/wcHQD1EXA==",
         "dependencies": {
@@ -239,11 +212,11 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:ffprobe-static",
-      "npm:file-type",
-      "npm:fluent-ffmpeg",
-      "npm:probe-image-size",
-      "npm:ytdl-core"
+      "npm:ffprobe-static@3.1.0",
+      "npm:file-type@19.0.0",
+      "npm:fluent-ffmpeg@2.1.3",
+      "npm:probe-image-size@7.2.3",
+      "npm:ytdl-core@4.11.5"
     ]
   }
 }

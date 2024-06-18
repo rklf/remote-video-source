@@ -1,15 +1,14 @@
 {
-    "scripts": {
-      "start": "deno run -A --watch main.ts",
-      "test": "deno test -A"
-    },
-    "imports": {
-      "rutt": "https://deno.land/x/rutt@0.2.0/mod.ts",
-      "file-type": "npm:file-type",
-      "ffprobe-static": "npm:ffprobe-static",
-      "fluent-ffmpeg": "npm:fluent-ffmpeg",
-      "ytdl-core": "npm:ytdl-core",
-      "probe-image-size": "npm:probe-image-size"
-    }
+  "scripts": {
+    "start": "deno run -A --watch main.ts",
+    "test": "deno test -A"
+  },
+  "imports": {
+    "rutt": "https://deno.land/x/rutt@0.2.0/mod.ts",
+    "file-type": "npm:file-type@19.0.0",
+    "ffprobe-static": "npm:ffprobe-static@3.1.0",
+    "fluent-ffmpeg": "npm:fluent-ffmpeg@2.1.3",
+    "ytdl-core": "npm:ytdl-core@4.11.5",
+    "probe-image-size": "npm:probe-image-size@7.2.3"
   }
-  
+}
