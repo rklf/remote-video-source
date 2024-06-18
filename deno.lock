@@ -155,7 +155,8 @@
     }
   },
   "redirects": {
-    "https://deno.land/x/fast_forward/ffprobe.ts": "https://deno.land/x/fast_forward@0.1.6/ffprobe.ts"
+    "https://deno.land/x/fast_forward/ffprobe.ts": "https://deno.land/x/fast_forward@0.1.6/ffprobe.ts",
+    "https://deno.land/x/ffprobe_wasm/mod.ts": "https://deno.land/x/ffprobe_wasm@v1.1.0/mod.ts"
   },
   "remote": {
     "https://deno.land/std@0.116.0/_util/assert.ts": "2f868145a042a11d5ad0a3c748dcf580add8a0dbc0e876eaa0026303a5488f58",
@@ -208,7 +209,14 @@
     "https://deno.land/x/fast_forward@0.1.6/deps.ts": "b7806e82065e3e8f77b5bf9509e15e31a9f583f04508a2038aeec065cfce3edc",
     "https://deno.land/x/fast_forward@0.1.6/errors.ts": "f23272e439eea4576e7f179140c154b623a8925a84b36a40a57e85f70f79a570",
     "https://deno.land/x/fast_forward@0.1.6/ffprobe.ts": "812458be3f188befcead3d2d1300c38cf5f43b42ee8b1b5128b74113cf48beb4",
-    "https://deno.land/x/rutt@0.2.0/mod.ts": "b467f38e8b927ddef2eb66e2c096e5e1f22837fcd0ce57b73517a23d4d365207"
+    "https://deno.land/x/ffprobe_wasm@v1.1.0/mod.ts": "3a57fbf9f45c9c90f8d01a0e12b581565d8774798c99f9e0dbee8139120e8771",
+    "https://deno.land/x/ffprobe_wasm@v1.1.0/src/common.ts": "058176c27a1cbbd5b24ec99f7edc8475360d53005bc680bfe1ebe8f9890d81c4",
+    "https://deno.land/x/ffprobe_wasm@v1.1.0/src/function.ts": "07dbd1de27a52c597295d4efbad27633eb3f6beec152fa19f475557bffdce978",
+    "https://deno.land/x/ffprobe_wasm@v1.1.0/src/types.ts": "618a39c49ad4dc0679f8f91db7210f24e8fba3dcf1f6640a75e59f5131a16b10",
+    "https://deno.land/x/ffprobe_wasm@v1.1.0/src/wasmUtil.ts": "f374ac4cadbd4898dfb4fb47578bb1d501ae73bc432ec8dac5907fc198cce549",
+    "https://deno.land/x/rutt@0.2.0/mod.ts": "b467f38e8b927ddef2eb66e2c096e5e1f22837fcd0ce57b73517a23d4d365207",
+    "https://deno.land/x/wasm@v1.2.2/pkg/wasmer_wasi_js.js": "33c58765ded371211b754157955a7ab1d2de921a9c8fee8748112d25605726dd",
+    "https://deno.land/x/wasm@v1.2.2/wasi.ts": "4fde34f8fa8c52af06adcc241f1b18fabf2df0d8b1f1b62d05e70377688a8fcb"
   },
   "workspace": {
     "dependencies": [

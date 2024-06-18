@@ -1,6 +1,6 @@
+import { getInfo } from "ffprobe_wasm/mod.ts";
 import { fileTypeFromBlob } from "file-type";
 import { toBlob } from "https://deno.land/std@0.224.0/streams/mod.ts";
-import { ffprobe } from "https://deno.land/x/fast_forward/ffprobe.ts";
 import probe from "probe-image-size";
 import ytdl from "ytdl-core";
 import fetch_url_info from "./fetch_url_info.ts";
@@ -42,10 +42,10 @@ export default async (req: Request) => {
           size: fileSize,
         }))
         : await new Promise((res, rej) =>
-          ffprobe(url, {}).then(({
-            format: { size },
-            streams: [{ width, height, duration }],
-          }) => res({ width, height, duration, size })).catch(rej),
+          getInfo(url).then(({ fileInfo: { 
+            duration, size,
+            streams: [{ width, height }],
+          }}) => res({ width, height, duration: duration / 1e+6, size })).catch(rej),
         )),
       contentType: mime,
       name: url.split("/").pop()?.split(".")?.shift(),

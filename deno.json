@@ -9,6 +9,13 @@
     "ffprobe-static": "npm:ffprobe-static@3.1.0",
     "fluent-ffmpeg": "npm:fluent-ffmpeg@2.1.3",
     "ytdl-core": "npm:ytdl-core@4.11.5",
-    "probe-image-size": "npm:probe-image-size@7.2.3"
+    "probe-image-size": "npm:probe-image-size@7.2.3",
+    "ffprobe_wasm/": "https://deno.land/x/ffprobe_wasm@v1.1.0/"
+  },
+  "scopes": {
+    "https://deno.land/x/ffprobe_wasm@v1.1.0/": {
+      "https://deno.land/x/ffprobe_wasm@v1.1.0/src/function.ts": "./patched/function.ts",
+      "https://deno.land/x/ffprobe_wasm@v1.1.0/src/types.ts": "./patched/types.ts"
+    }
   }
 }
